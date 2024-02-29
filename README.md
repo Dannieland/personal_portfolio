@@ -1,2 +1,2 @@
 # personal_portfolio
-Updated Angular Personal Portfolio
+My updated Angular personal portfolio

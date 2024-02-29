@@ -1,0 +1,40 @@
+<!--
+ * Title: nav.component.html
+ * Author: Danielle Taplin
+ * Date: 2/28/24
+ * code provided by Krasso
+-->
+<nav class="bg-ravenclaw ps-3 navbar navbar-expand-sm fixed-top">
+    <a routerLink="/" class="logo"><img src="" width="22%"></a>
+  
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarResponsive"
+    aria-controls="navbarResponsive"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+  
+    <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- navbar links-->
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto p-2">
+        <li class="nav-item">
+          <a routerLink="/home" class="nav-link font-yellow">Home</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/about" class="nav-link font-yellow">About</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/resume" class="nav-link font-yellow">Resume</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/projects" class="nav-link font-yellow">Projects</a>
+          </li>
+ 
+        </ul>
+    </div>
+  </nav>
